@@ -1,4 +1,4 @@
-# Config files and instructions on setting up a new Mac
+# Config files and instructions for setting up a new Mac
 
 Whenever a new Mac is configured (every few years), we can check if the apps/tools are still needed and ask Chat if there are better/modern/maintained alternatives.
 
@@ -42,6 +42,8 @@ Apps:
 - VS Code and VS Code Insiders via https://code.visualstudio.com
 - Firefox and Firefox Developer Edition (https://www.firefox.com)
 - Chrome
-- DHBW stuff: eduVPN via AppStore (see ITS infos in moodle), MS Outlook (need to research, &rarr; legacy mode!), MS Office?
+- DHBW stuff:
+  - eduVPN via AppStore (see ITS infos in moodle)
+  - MS Outlook **not via App Store!**, &rarr; use in legacy mode!, included in MS Office, need to research…
 
 ## Browser Configs
