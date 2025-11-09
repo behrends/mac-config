@@ -29,6 +29,7 @@ Tools:
   - `llm keys set openai`
 - codex (https://github.com/openai/codex)
 - sqlite (https://sqlite.org)
+- unar (https://theunarchiver.com/command-line)
 
 Apps: 
 
@@ -79,19 +80,26 @@ In terminal:
   - `defaults -currentHost write -globalDomain NSStatusItemSpacing -int 6`
   - `defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int 6`
   - `killall ControlCenter; killall SystemUIServer`
-- 
-	.ssh mit SSL keys
-	.gitconfig:
-		[user]
-	        name = Erik Behrends
-        	email = behrends@users.noreply.github.com
-	TextEdit: new file als TXT (Settings, Format, Plain Text), remove autocorrect
-	Finder: 
-		Settings - General - New Finder windows show: Home folder
-		Settings - Advanced - Show all filename extensions
-		Settings - Advanced - Keep folders on Top - In windows… und On Desktop
-		View - Show Path Bar, Show Status Bar
-		Show the ~/Library folder: chflags nohidden ~/Library
+
+Finder:
+
+- Settings - General - New Finder windows show: Home folder
+- Settings - Advanced - Show all filename extensions
+- Settings - Advanced - Keep folders on Top - In windows… und On Desktop
+- View - Show Path Bar, Show Status Bar
+- Show the `~/Library` folder, terminal command: `chflags nohidden ~/Library`
+- Desktop right click: `Sort By - Name`
+
+Various:
+
+- Create `~/.ssh` folder and copy ssh keys
+- Create `.gitconfig:` 
+```
+[user]
+	name = Erik Behrends
+        email = behrends@users.noreply.github.com
+```
+- TextEdit: new file as TXT (Settings, Format, Plain Text), remove autocorrect
 
 
 ## App configurations
