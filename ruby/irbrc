@@ -1,5 +1,0 @@
-require 'rubygems'
-require 'hirb'
-require 'ap'
-
-Hirb.enable
