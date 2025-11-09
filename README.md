@@ -96,8 +96,8 @@ Various:
 - Create `.gitconfig:` 
 ```
 [user]
-	name = Erik Behrends
-        email = behrends@users.noreply.github.com
+    name = Erik Behrends
+    email = behrends@users.noreply.github.com
 ```
 - TextEdit: new file as TXT (Settings, Format, Plain Text), remove autocorrect
 
