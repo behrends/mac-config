@@ -7,17 +7,16 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
 
-plugins=(git brew)
-
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# set terminal to English
-export LANG="en_US.UTF-8" 
+plugins=(git brew)
 
-# autojump
-[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
+HYPHEN_INSENSITIVE="true"
+
+# zoxid (autojump)
+eval "$(zoxide init zsh)"
 
 # android
 export ANDROID_HOME=$HOME/Library/Android/sdk
