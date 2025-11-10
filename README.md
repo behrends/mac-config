@@ -37,10 +37,14 @@ Apps:
 - Raycast (https://www.raycast.com)
   - install `Coffee` extension via store
   - add menu bar icon with `Caffeinate Status Menu Bar`
+  - install `Pomodoro` extension via store
+  - add menu bar icon with `Show Pomodoro in Menu Bar`
 - logseq (https://logseq.com/)
   - Add a graph: select logseq folder in iCloud Drive 
   - disable diagnostics in settings
-
+- utm (https://mac.getutm.app/):
+  - copy VMs from previous mac
+  - turn on "Inverted scrolling" in Settings-Input 
 
 ## More Apps to install
 
@@ -49,6 +53,7 @@ Apps:
 - VS Code and VS Code Insiders via https://code.visualstudio.com
 - Firefox and Firefox Developer Edition (https://www.firefox.com)
 - Chrome
+- Android Studio (https://developer.android.com/studio)
 - Dropbox (if needed, unlink previous device before setup)
 - Anki
 - DHBW stuff:
@@ -69,7 +74,9 @@ In system settings:
  - Hot Corners (clockwise from top left): Lock Screen, Mission Control, Desktop
 - Game Center: disable
 - Wallpaper: Shuffle All,  Every 12 Hours
-- Menu bar: enable some icons and disable irrelevant ones (focus, spotlight, …)
+- Menu bar:
+  - select "Always" in "Automatically hide and show…" 
+  - enable some icons and disable irrelevant ones (focus, spotlight, …)
 
 In terminal:	
 
@@ -100,10 +107,11 @@ Various:
     email = behrends@users.noreply.github.com
 ```
 - TextEdit: new file as TXT (Settings, Format, Plain Text), remove autocorrect
-
+- Setup printer
 
 ## App configurations
 
 VS Code and VS Code Insiders, in settings:
   - Font Size: 16
   - Font Family, add to front: JetBrainsMono Nerd Font Mono
+  - Command Palette… - Shell command: Install 'code' command in PATH
