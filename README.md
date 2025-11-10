@@ -27,6 +27,7 @@ Tools:
 - node (https://nodejs.org)
 - llm (https://datasette.io/tools/llm)
   - `llm keys set openai`
+  - `llm models default <latest gpt>`
 - codex (https://github.com/openai/codex)
 - sqlite (https://sqlite.org)
 - unar (https://theunarchiver.com/command-line)
