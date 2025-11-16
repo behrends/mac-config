@@ -35,13 +35,17 @@ Tools:
 Apps: 
 
 - keepassxc (https://keepassxc.org)
+- logseq (https://logseq.com/)
+  - Add a graph: select logseq folder in iCloud Drive 
+  - disable diagnostics in settings
 - Raycast (https://www.raycast.com)
   - install `Coffee` extension via store
   - add menu bar icon with `Caffeinate Status Menu Bar`
   - install `Pomodoro` extension via store
-- logseq (https://logseq.com/)
-  - Add a graph: select logseq folder in iCloud Drive 
-  - disable diagnostics in settings
+  - Extensions: Search Files → Alias → f
+  - Extensions: Search Emojis & Symbols → Alias → e
+  - Settings → Advanced → Hyper Key → Caps Lock (disable "Include shift in Hyper Key")
+  - Extensions: Set Hyper Keys for Ghostty, VS Code (Insiders), Browsers, Logseq, keepassxc, finder, etc.
 - utm (https://mac.getutm.app/):
   - copy VMs from previous mac
   - turn on "Inverted scrolling" in Settings-Input 
@@ -116,10 +120,30 @@ Various:
 
 ## App configurations
 
-VS Code and VS Code Insiders, in settings:
-  - Font Size: 16
-  - Font Family, add to front: JetBrainsMono Nerd Font Mono
-  - Command Palette… - Shell command: Install 'code' command in PATH
+### VS Code and VS Code Insiders
+
+Command Palette… - Shell command: Install 'code' command in PATH
+
+Extensions:
+  - Prettier
+  - Tailwind CSS IntelliSense
+
+Settings:
+
+```json
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono,Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.glyphMargin": false,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "prettier.singleQuote": true,
+  "terminal.integrated.fontSize": 16
+}
+```
 
 ### Browsers
 
@@ -171,3 +195,4 @@ Chrome:
 - Settings:
   - On Startup: Continue where you left off
   - Downloads: Desktop
+  - Privacy and security → Third-party cookies: Enable "Block third-party cookies"
