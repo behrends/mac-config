@@ -39,7 +39,6 @@ Apps:
   - install `Coffee` extension via store
   - add menu bar icon with `Caffeinate Status Menu Bar`
   - install `Pomodoro` extension via store
-  - add menu bar icon with `Show Pomodoro in Menu Bar`
 - logseq (https://logseq.com/)
   - Add a graph: select logseq folder in iCloud Drive 
   - disable diagnostics in settings
@@ -61,6 +60,7 @@ Apps:
   - eduVPN via AppStore (see ITS infos in moodle)
   - MS Outlook **not via App Store!**, &rarr; use in legacy mode!, included in MS Office, need to research…
     - OneDrive : login with school/work account and add to login items
+- Logitech Software for Spotlight Presenter 
 
 ## Configurations
 
@@ -75,10 +75,14 @@ In system settings:
  - Hot Corners (clockwise from top left): Lock Screen, Mission Control, Desktop
 - Game Center: disable
 - Wallpaper: Shuffle All,  Every 12 Hours
+  - Screen Saver… - After 1 Minute
 - Menu bar:
   - select "Always" in "Automatically hide and show…" 
   - enable some icons and disable irrelevant ones (focus, spotlight, …)
-
+ - Lock Screen:
+  - Require Password after screen saver… - After 5 seconds
+ - Airdrop & Handoff: disable "AirPlay Receiver"
+ 
 In terminal:	
 
 - save screenshot as jpg:
@@ -116,3 +120,54 @@ VS Code and VS Code Insiders, in settings:
   - Font Size: 16
   - Font Family, add to front: JetBrainsMono Nerd Font Mono
   - Command Palette… - Shell command: Install 'code' command in PATH
+
+### Browsers
+
+Logins and sensitive data are only entered in Firefox and Safari.
+Therefore we won't install extensions which could spy on our data.
+
+Firefox Developer Edition is used for casual browsing where we
+do not want annoying cookie popups and ads. Here we use 
+extensions to block those.
+
+Chrome is used with a dummy Google user for testing Google apps 
+and others providing a Google login. 
+
+Safari:
+
+- Settings:
+  - General:
+    - Safari opens with: All windows from last session
+    - New windows / New tabs open with: Empty Page
+    - File download location: Desktop
+  - Search: DuckDuckGo
+  - Advanced: Enable "Show features for web developers"
+- View: Show status bar
+- Extensions via App Store: Hush Nag Blocker
+
+Firefox and Firefox Developer Edition:
+
+- Settings:
+  - General: 
+    - check "Open previous windows and tabs" 
+    - disable "Always check if … default browser"
+    - disable "Check spelling as you type"
+    - Downloads: Save files to Desktop
+  - Home: Homepage and new windows, new tabs: Blank Page
+  - Search: DuckDuckGo
+  - Privacy and Security: 
+    - choose Strict mode
+    - disable "Ask to save passwords"
+    - disable Firefox Data Collection and Use
+    - Firefox Developer Edition: enable "Delete cookies and site data when Firefox Developer Edition is closed"
+    - enable "Tell websites not to sell or share my data"
+- Firefox: no extensions (only used for few websites with logins)
+- Firefox Developer Edition Extensions (web surfing only) 
+  - uBlock Origin
+  - PopUpOFF (Settings - Mode: Aggressive)
+
+Chrome:
+
+- Settings:
+  - On Startup: Continue where you left off
+  - Downloads: Desktop
