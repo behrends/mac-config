@@ -139,6 +139,7 @@ Settings:
   "editor.glyphMargin": false,
   "editor.minimap.enabled": false,
   "editor.tabSize": 2,
+  "extensions.ignoreRecommendations": true,
   "github.copilot.nextEditSuggestions.enabled": true,
   "prettier.singleQuote": true,
   "terminal.integrated.fontSize": 16
@@ -181,10 +182,10 @@ Firefox and Firefox Developer Edition:
   - Search: DuckDuckGo
   - Privacy and Security: 
     - choose Strict mode
+    - enable "Tell websites not to sell or share my data"
     - disable "Ask to save passwords"
     - disable Firefox Data Collection and Use
     - Firefox Developer Edition: enable "Delete cookies and site data when Firefox Developer Edition is closed"
-    - enable "Tell websites not to sell or share my data"
 - Firefox: no extensions (only used for few websites with logins)
 - Firefox Developer Edition Extensions (web surfing only) 
   - uBlock Origin
