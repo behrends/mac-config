@@ -30,3 +30,8 @@ export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 # Starship
 eval "$(starship init zsh)"
 
+# Added by Antigravity
+export PATH="/Users/erik/.antigravity/antigravity/bin:$PATH"
+
+# Disable Maestro Analytics
+export MAESTRO_CLI_NO_ANALYTICS=1
