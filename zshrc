@@ -35,3 +35,6 @@ export PATH="/Users/erik/.antigravity/antigravity/bin:$PATH"
 
 # Disable Maestro Analytics
 export MAESTRO_CLI_NO_ANALYTICS=1
+
+# Disable Next.js Telemetry
+export NEXT_TELEMETRY_DISABLED=1
