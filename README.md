@@ -56,6 +56,7 @@ Apps:
 - Docker Desktop via https://docker.com
 - VS Code and VS Code Insiders via https://code.visualstudio.com
 - Firefox and Firefox Developer Edition (https://www.firefox.com)
+  - Developer Edition: disable Dark Theme in `Tools` - `Extensions and Themes`
 - Chrome
 - Android Studio (https://developer.android.com/studio)
 - Dropbox (if needed, unlink previous device before setup)
