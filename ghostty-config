@@ -3,6 +3,7 @@
 #
 # Run `ghostty +list-themes` to see all available templates
 
+font-family = IBM Plex Mono
 font-size = 18
 theme = Catppuccin Mocha
 macos-option-as-alt = false
