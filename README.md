@@ -9,7 +9,10 @@ Whenever a new Mac is configured (every few years), we can check if the apps/too
 - Create link to `zshrc` from this repository:
   - `ln -sf ~/projects/other/mac-config/zshrc ~/.zshrc` (this will overwrite the default `.zshrc` file)
 - Install [Homebrew](https://brew.sh)
-- Install JetBrains Mono Font: `brew install font-jetbrains-mono-nerd-font`
+- Install some nice fonts:
+  - IBM Plex Mono: `brew install font-ibm-plex-mono`
+  - Ubuntu Mono: `brew install font-ubuntu-mono`
+  - JetBrains Mono Font: `brew install font-jetbrains-mono-nerd-font`
 - Install Starship with Homebrew: `brew install starship` (https://starship.rs)
 - Install terminal app Ghostty with Homebrew: `brew install ghostty` (https://ghostty.org)
 - Create link to Ghostty config from this repository:
@@ -130,7 +133,7 @@ Extensions:
   - Prettier
   - Tailwind CSS IntelliSense
 
-Settings:
+Settings (use ibm/ubuntu/jetbrains font):
 
 ```json
 {
