@@ -1,10 +1,9 @@
 export ZSH="$HOME/.oh-my-zsh"
 
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+HYPHEN_INSENSITIVE="true"
+
+# we are using Starship (see below), hence no theme needed
+ZSH_THEME=""
 
 plugins=(git)
 
@@ -12,10 +11,8 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-HYPHEN_INSENSITIVE="true"
-
 # zoxid (autojump)
-eval "$(zoxide init zsh)"
+command -v zoxide >/dev/null && eval "$(zoxide init zsh)"
 
 # android
 export ANDROID_HOME=$HOME/Library/Android/sdk
@@ -28,7 +25,7 @@ export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
 # Starship
-eval "$(starship init zsh)"
+command -v starship >/dev/null && eval "$(starship init zsh)"
 
 # Added by Antigravity
 export PATH="/Users/erik/.antigravity/antigravity/bin:$PATH"
