@@ -66,9 +66,8 @@ Apps:
 - Anki
 - DHBW stuff:
   - eduVPN via AppStore (see ITS infos in moodle)
-  - MS Outlook **not via App Store!**, &rarr; use in legacy mode!, included in MS Office
-    - https://learn.microsoft.com/en-us/officeupdates/update-history-office-for-mac
-    - OneDrive : login with school/work account and add to login items
+  - bwSync&Share Clients (https://bwsyncandshare.kit.edu)
+    - Disable in settings: `Ask for confirmation before synchronizing new folders larger than…`
 - Logitech Software for Spotlight Presenter 
 
 ## Configurations
